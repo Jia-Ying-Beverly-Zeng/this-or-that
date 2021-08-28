@@ -33,14 +33,14 @@ export default class App extends Component {
     // application twice (which throws an error).
     if (firebase.apps.length === 0) {
       firebase.initializeApp({
-        apiKey: "AIzaSyCJPYgNY-rgkZul563iUipYrFKD7BLt_HA",
-        authDomain: "studio-multiplayer-game.firebaseapp.com",
-        databaseURL: "https://studio-multiplayer-game.firebaseio.com",
-        projectId: "studio-multiplayer-game",
-        storageBucket: "studio-multiplayer-game.appspot.com",
-        messagingSenderId: "953054375831",
-        appId: "1:953054375831:web:f8908ae5304170ef125ed2",
-        measurementId: "G-JWBGFS2PBT"
+        apiKey: "AIzaSyDtbbruwcN41G1uB_v-ibzT0KtobtJuX-0",
+        authDomain: "this-or-that-b21be.firebaseapp.com",
+        databaseURL: "https://this-or-that-b21be-default-rtdb.firebaseio.com/",
+        projectId: "this-or-that-b21be",
+        storageBucket: "this-or-that-b21be.appspot.com",
+        messagingSenderId: "784898985244",
+        appId: "1:784898985244:web:ebc65ab38462ba04a1fed9",
+        measurementId: "G-36TQ9PL6NE"
       });
       firebase.analytics();
     }

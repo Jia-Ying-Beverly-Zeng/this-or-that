@@ -21,6 +21,7 @@ import burst_Forth from "./games/Burst_Forth/burstForth.js";
 import fight from "./games/fight/fight.js";
 import pictionary from './games/pictionary/Pictionary.js';
 import uno from './games/uno/uno.js';
+import Quiz from "./games/quiz/Quiz.js";
 
 const gameData = {
   chatroom: {
@@ -225,13 +226,14 @@ const gameData = {
     component: SpaceInvaders
   },
 
-  duckHunt: {
-    title: "Duck Hunt",
-    authors: "Kevin",
-    description: "Destroying ducks",
+  Quiz: {
+    title: "Quiz",
+    authors: "Spongebob ",
+    description:
+      "Play This or That!",
     minUsers: 1,
-    maxUsers: 1,
-    component: DuckHunt,
+    maxUsers: 2,
+    component: Quiz
   },
 };
 

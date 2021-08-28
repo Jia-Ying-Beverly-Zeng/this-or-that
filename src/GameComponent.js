@@ -9,6 +9,7 @@ export default class GameComponent extends React.Component {
   constructor(props) {
     super(props);
     document.title = this.getSessionTitle();
+    console.log(document.title)
   }
 
   /**
