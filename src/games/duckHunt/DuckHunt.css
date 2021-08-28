@@ -1,0 +1,135 @@
+.DuckHunt {
+  background-color: pink;
+}
+
+.DuckHunt .screen {
+  width: 1280px;
+  height: 720px;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.DuckHunt .titleScreen {
+  background-image: url("/imgs/titleScreen.jpg");
+  color: white;
+}
+.DuckHunt .gameScreen {
+  background-image: url("/imgs/gameScreen.png");
+  background-repeat: no-repeat;
+  background-size: 1830px auto;
+  width: 590px;
+  height: 542px;
+}
+.DuckHunt .buttons {
+  background-color: black;
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.DuckHunt .startGameButton {
+  width: 300px;
+  height: 100px;
+  font-size: 2em;
+  color: aqua;
+  background-color: black;
+}
+
+.DuckHunt .rank-score-name-section-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.DuckHunt .user-score {
+  text-align: center;
+  align-items: center;
+}
+
+.DuckHunt .user-rank {
+  text-align: left;
+  align-items: left;
+}
+
+.DuckHunt .user-name {
+  text-align: right;
+  align-items: right;
+}
+
+.DuckHunt .startGameButton:hover {
+  border: aqua solid 5px;
+}
+
+.DuckHunt .blueText {
+  color: blue;
+}
+.DuckHunt .whiteText {
+  color: white;
+}
+.DuckHunt .orangeText {
+  color: orange;
+}
+.DuckHunt .pinkText {
+  color: pink;
+}
+
+.DuckHunt .scoreBoard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  background-color: black;
+}
+
+@keyframes duck-wing-flaps {
+  from {
+    background-position-x: 0px;
+  }
+  to {
+    background-position-x: -35px;
+  }
+}
+@keyframes duck-movement {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+.DuckHunt .DuckSprite {
+  background-image: url("/imgs/DuckHuntDuckGif.gif");
+  background-size: 35px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: -5%;
+}
+
+.DuckHunt .duckMove {
+  left: 100%;
+}
+
+.DuckHunt .duckReset {
+  transition: none;
+}
+
+.DuckHunt .duckhuntscore {
+  text-align: center;
+  height: 20px;
+  width: 115px;
+  background-color: purple;
+  color: yellow;
+  position: absolute;
+  bottom: 47px;
+  right: 39px;
+}
+/*testing git*/
